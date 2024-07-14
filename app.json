@@ -6,7 +6,7 @@
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "LOG_MSG": {
@@ -27,7 +27,7 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": "malikkhan1133"
+      "value": "osmanmalik1144"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
