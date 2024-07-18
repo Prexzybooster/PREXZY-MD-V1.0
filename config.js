@@ -9,7 +9,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: (process.env.SESSION_ID || '').trim(),
+  SESSION_ID: (process.env.SESSION_ID || '18_7_20e8_3e5c_3698').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
@@ -28,7 +28,7 @@ module.exports = {
           logging: false,
         }),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
-  SUDO: process.env.SUDO || '',
+  SUDO: process.env.SUDO || '18764156404',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
@@ -53,8 +53,8 @@ module.exports = {
   AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'false').trim(),
   SEND_READ: toBool(process.env.SEND_READ),
   KOYEB: toBool(process.env.KOYEB),
-  KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
-  KOYEB_API: (process.env.KOYEB_API || '').trim(),
+  KOYEB_NAME: (process.env.KOYEB_NAME || 'phantomgamer726').trim(),
+  KOYEB_API: (process.env.KOYEB_API || 'vfidjo14bwq6o8bwe7d7rga88bygjlf33cconvmxskq810xecojwphyzzqc2h1ti').trim(),
   AJOIN: toBool(process.env.AJOIN),
   GPT: (process.env.GPT || 'free').trim(),
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
