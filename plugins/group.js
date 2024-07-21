@@ -95,7 +95,7 @@ bot(
 		if (!user) return await message.send(`_Give me a user._`)
 		const isUserAdmin = await isAdmin(participants, user)
 		if (isUserAdmin) return await message.send(`_User is already admin._`)
-		return await message.Promote(user)
+		return await message.ORA È ADMIN(user)
 	}
 )
 
@@ -115,7 +115,7 @@ bot(
 		if (!user) return await message.send(`_Give me a user._`)
 		const isUserAdmin = await isAdmin(participants, user)
 		if (!isUserAdmin) return await message.send(`_User is not an admin._`)
-		return await message.Demote(user)
+		return await message.NON È PIÙ ADMIN(user)
 	}
 )
 
