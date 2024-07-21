@@ -96,7 +96,7 @@ bot(
     try {
       pp = await message.profilePictureUrl(id || gid)
     } catch (error) {
-      pp = 'https://cdn.wallpapersafari.com/0/83/zKyWb6.jpeg'
+      pp = 'https://www.instagram.com/techking764?igsh=MXNqeDUwdndpbWJ0OQ==.jpeg'
     }
     let caption = ''
     if (id) {
