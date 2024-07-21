@@ -1,7 +1,7 @@
 const mask = require("../Utilis/events")
 mask.addCommand(
   {
-    pattern: "lstonline ?(.*)",
+    pattern: "listonline ?(.*)",
     fromMe: true,
     desc: "list Online",
   },
